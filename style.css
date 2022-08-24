@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,700");
+body {
+	font-family: Roboto, sans-serif;
+	margin: 0;
+	height: 100vh;
+	display: grid;
+	align-items: center;
+	justify-items: center;
+	background: rgb(2, 0, 36);
+	background: linear-gradient(
+		0deg,
+		rgba(2, 0, 36, 1) 0%,
+		rgba(9, 9, 121, 1) 35%,
+		rgba(0, 212, 255, 1) 100%
+	);
+}
+.card {
+	background: #fff;
+	border-radius: 4px;
+	box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.5);
+	max-width: 500px;
+	min-height: 300px;
+	display: flex;
+	flex-direction: row;
+	border-radius: 25px;
+	position: relative;
+}
+.card h2 {
+	margin: 0;
+	padding: 0 1rem;
+}
+.card .title {
+	padding: 1rem;
+	text-align: right;
+	color: #00d4ff;
+	font-weight: bold;
+	font-size: 14px;
+}
+.card .desc {
+	padding: 1rem 1rem;
+	font-size: 14px;
+}
+.card .actions {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	align-items: center;
+	padding: 0.5rem 1rem;
+}
+
+.card-text {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+}
+
+.title-total {
+	padding: 2.5em 1.5em 1.5em 1.5em;
+}
+
+path {
+	fill: white;
+}
+
+.img-portada {
+	width: 100%;
+}
+
+.portada {
+	width: 100%;
+	height: 100%;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	background-image: url("https://entrepreneurhandbook.co.uk/wp-content/uploads/2020/08/Web-development-2.0.jpg.webp");
+	background-position: bottom center;
+	background-size: cover;
+}
+
+a {
+	border: none;
+	background: none;
+	font-size: 1.7em;
+	color: #00d4ff;
+	cursor: pointer;
+}
+
+i:hover {
+	color: #090979;
+	transition: 0.5s;
+	/* transform: rotate(22deg); */
+	transform: scale(1.25);
+}
